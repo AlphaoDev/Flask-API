@@ -63,7 +63,7 @@ $ sudo docker run -p 5000:5000 -v /opt/docker/app_python/data:/data --rm app_pyt
 Create your application directory and go it. For example :
 
 ```bash
-$ mkdir /opt/docker/app_python | cd /opt/docker/app_python
+$ mkdir -p /opt/docker/app_python | cd /opt/docker/app_python
 ```
 
 Copy client files in your current directory and make sure that you have a logs folder for sharing logs.
