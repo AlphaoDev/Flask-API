@@ -10,7 +10,7 @@ This Flask API is an Docker container host monitoring tool and a client-side too
 Create your application directory and go it. For example :
 
 ```bash
-$ mkdir /opt/docker/app_python | cd /opt/docker/app_python
+$ mkdir -p /opt/docker/app_python | cd /opt/docker/app_python
 ```
 
 Copy server files in your current directory and make sure that you have a data folder for sharing statistics.
